@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C22AA37F2B86B63C006E0590 /* Absence_RecorderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22AA37E2B86B63C006E0590 /* Absence_RecorderApp.swift */; };
+		C22AA3812B86B63C006E0590 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22AA3802B86B63C006E0590 /* ContentView.swift */; };
+		C22AA3832B86B63D006E0590 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C22AA3822B86B63D006E0590 /* Assets.xcassets */; };
+		C22AA3862B86B63D006E0590 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C22AA3852B86B63D006E0590 /* Preview Assets.xcassets */; };
+		C22AA3902B86B63E006E0590 /* Absence_RecorderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22AA38F2B86B63E006E0590 /* Absence_RecorderTests.swift */; };
+		C22AA39A2B86B63E006E0590 /* Absence_RecorderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22AA3992B86B63E006E0590 /* Absence_RecorderUITests.swift */; };
+		C22AA39C2B86B63E006E0590 /* Absence_RecorderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22AA39B2B86B63E006E0590 /* Absence_RecorderUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C22AA38C2B86B63E006E0590 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C22AA3732B86B63B006E0590 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C22AA37A2B86B63C006E0590;
+			remoteInfo = "Absence Recorder";
+		};
+		C22AA3962B86B63E006E0590 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C22AA3732B86B63B006E0590 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C22AA37A2B86B63C006E0590;
+			remoteInfo = "Absence Recorder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C22AA37B2B86B63C006E0590 /* Absence Recorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Absence Recorder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C22AA37E2B86B63C006E0590 /* Absence_RecorderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Absence_RecorderApp.swift; sourceTree = "<group>"; };
+		C22AA3802B86B63C006E0590 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C22AA3822B86B63D006E0590 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C22AA3852B86B63D006E0590 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C22AA38B2B86B63E006E0590 /* Absence RecorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Absence RecorderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C22AA38F2B86B63E006E0590 /* Absence_RecorderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Absence_RecorderTests.swift; sourceTree = "<group>"; };
+		C22AA3952B86B63E006E0590 /* Absence RecorderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Absence RecorderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C22AA3992B86B63E006E0590 /* Absence_RecorderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Absence_RecorderUITests.swift; sourceTree = "<group>"; };
+		C22AA39B2B86B63E006E0590 /* Absence_RecorderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Absence_RecorderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C22AA3782B86B63C006E0590 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C22AA3882B86B63E006E0590 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C22AA3922B86B63E006E0590 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C22AA3722B86B63B006E0590 = {
+			isa = PBXGroup;
+			children = (
+				C22AA37D2B86B63C006E0590 /* Absence Recorder */,
+				C22AA38E2B86B63E006E0590 /* Absence RecorderTests */,
+				C22AA3982B86B63E006E0590 /* Absence RecorderUITests */,
+				C22AA37C2B86B63C006E0590 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C22AA37C2B86B63C006E0590 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C22AA37B2B86B63C006E0590 /* Absence Recorder.app */,
+				C22AA38B2B86B63E006E0590 /* Absence RecorderTests.xctest */,
+				C22AA3952B86B63E006E0590 /* Absence RecorderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C22AA37D2B86B63C006E0590 /* Absence Recorder */ = {
+			isa = PBXGroup;
+			children = (
+				C22AA37E2B86B63C006E0590 /* Absence_RecorderApp.swift */,
+				C22AA3802B86B63C006E0590 /* ContentView.swift */,
+				C22AA3822B86B63D006E0590 /* Assets.xcassets */,
+				C22AA3842B86B63D006E0590 /* Preview Content */,
+			);
+			path = "Absence Recorder";
+			sourceTree = "<group>";
+		};
+		C22AA3842B86B63D006E0590 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C22AA3852B86B63D006E0590 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C22AA38E2B86B63E006E0590 /* Absence RecorderTests */ = {
+			isa = PBXGroup;
+			children = (
+				C22AA38F2B86B63E006E0590 /* Absence_RecorderTests.swift */,
+			);
+			path = "Absence RecorderTests";
+			sourceTree = "<group>";
+		};
+		C22AA3982B86B63E006E0590 /* Absence RecorderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C22AA3992B86B63E006E0590 /* Absence_RecorderUITests.swift */,
+				C22AA39B2B86B63E006E0590 /* Absence_RecorderUITestsLaunchTests.swift */,
+			);
+			path = "Absence RecorderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C22AA37A2B86B63C006E0590 /* Absence Recorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C22AA39F2B86B63E006E0590 /* Build configuration list for PBXNativeTarget "Absence Recorder" */;
+			buildPhases = (
+				C22AA3772B86B63C006E0590 /* Sources */,
+				C22AA3782B86B63C006E0590 /* Frameworks */,
+				C22AA3792B86B63C006E0590 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Absence Recorder";
+			productName = "Absence Recorder";
+			productReference = C22AA37B2B86B63C006E0590 /* Absence Recorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C22AA38A2B86B63E006E0590 /* Absence RecorderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C22AA3A22B86B63E006E0590 /* Build configuration list for PBXNativeTarget "Absence RecorderTests" */;
+			buildPhases = (
+				C22AA3872B86B63E006E0590 /* Sources */,
+				C22AA3882B86B63E006E0590 /* Frameworks */,
+				C22AA3892B86B63E006E0590 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C22AA38D2B86B63E006E0590 /* PBXTargetDependency */,
+			);
+			name = "Absence RecorderTests";
+			productName = "Absence RecorderTests";
+			productReference = C22AA38B2B86B63E006E0590 /* Absence RecorderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C22AA3942B86B63E006E0590 /* Absence RecorderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C22AA3A52B86B63E006E0590 /* Build configuration list for PBXNativeTarget "Absence RecorderUITests" */;
+			buildPhases = (
+				C22AA3912B86B63E006E0590 /* Sources */,
+				C22AA3922B86B63E006E0590 /* Frameworks */,
+				C22AA3932B86B63E006E0590 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C22AA3972B86B63E006E0590 /* PBXTargetDependency */,
+			);
+			name = "Absence RecorderUITests";
+			productName = "Absence RecorderUITests";
+			productReference = C22AA3952B86B63E006E0590 /* Absence RecorderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C22AA3732B86B63B006E0590 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					C22AA37A2B86B63C006E0590 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					C22AA38A2B86B63E006E0590 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = C22AA37A2B86B63C006E0590;
+					};
+					C22AA3942B86B63E006E0590 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = C22AA37A2B86B63C006E0590;
+					};
+				};
+			};
+			buildConfigurationList = C22AA3762B86B63B006E0590 /* Build configuration list for PBXProject "Absence Recorder" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C22AA3722B86B63B006E0590;
+			productRefGroup = C22AA37C2B86B63C006E0590 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C22AA37A2B86B63C006E0590 /* Absence Recorder */,
+				C22AA38A2B86B63E006E0590 /* Absence RecorderTests */,
+				C22AA3942B86B63E006E0590 /* Absence RecorderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C22AA3792B86B63C006E0590 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C22AA3862B86B63D006E0590 /* Preview Assets.xcassets in Resources */,
+				C22AA3832B86B63D006E0590 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C22AA3892B86B63E006E0590 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C22AA3932B86B63E006E0590 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C22AA3772B86B63C006E0590 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C22AA3812B86B63C006E0590 /* ContentView.swift in Sources */,
+				C22AA37F2B86B63C006E0590 /* Absence_RecorderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C22AA3872B86B63E006E0590 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C22AA3902B86B63E006E0590 /* Absence_RecorderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C22AA3912B86B63E006E0590 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C22AA39C2B86B63E006E0590 /* Absence_RecorderUITestsLaunchTests.swift in Sources */,
+				C22AA39A2B86B63E006E0590 /* Absence_RecorderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C22AA38D2B86B63E006E0590 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C22AA37A2B86B63C006E0590 /* Absence Recorder */;
+			targetProxy = C22AA38C2B86B63E006E0590 /* PBXContainerItemProxy */;
+		};
+		C22AA3972B86B63E006E0590 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C22AA37A2B86B63C006E0590 /* Absence Recorder */;
+			targetProxy = C22AA3962B86B63E006E0590 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C22AA39D2B86B63E006E0590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C22AA39E2B86B63E006E0590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C22AA3A02B86B63E006E0590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Absence Recorder/Preview Content\"";
+				DEVELOPMENT_TEAM = DJFD744ML9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andreaskwong.Absence-Recorder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C22AA3A12B86B63E006E0590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Absence Recorder/Preview Content\"";
+				DEVELOPMENT_TEAM = DJFD744ML9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andreaskwong.Absence-Recorder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C22AA3A32B86B63E006E0590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DJFD744ML9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andreaskwong.Absence-RecorderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Absence Recorder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Absence Recorder";
+			};
+			name = Debug;
+		};
+		C22AA3A42B86B63E006E0590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DJFD744ML9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andreaskwong.Absence-RecorderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Absence Recorder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Absence Recorder";
+			};
+			name = Release;
+		};
+		C22AA3A62B86B63E006E0590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DJFD744ML9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andreaskwong.Absence-RecorderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Absence Recorder";
+			};
+			name = Debug;
+		};
+		C22AA3A72B86B63E006E0590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DJFD744ML9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andreaskwong.Absence-RecorderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Absence Recorder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C22AA3762B86B63B006E0590 /* Build configuration list for PBXProject "Absence Recorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C22AA39D2B86B63E006E0590 /* Debug */,
+				C22AA39E2B86B63E006E0590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C22AA39F2B86B63E006E0590 /* Build configuration list for PBXNativeTarget "Absence Recorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C22AA3A02B86B63E006E0590 /* Debug */,
+				C22AA3A12B86B63E006E0590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C22AA3A22B86B63E006E0590 /* Build configuration list for PBXNativeTarget "Absence RecorderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C22AA3A32B86B63E006E0590 /* Debug */,
+				C22AA3A42B86B63E006E0590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C22AA3A52B86B63E006E0590 /* Build configuration list for PBXNativeTarget "Absence RecorderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C22AA3A62B86B63E006E0590 /* Debug */,
+				C22AA3A72B86B63E006E0590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C22AA3732B86B63B006E0590 /* Project object */;
+}
