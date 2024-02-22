@@ -11,7 +11,7 @@ import SwiftUI
 struct Absence_RecorderApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(divisions: Division.examples)
         }
     }
 }
