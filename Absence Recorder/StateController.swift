@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+class StateController: ObservableObject {
+    @Published var divisions: [Division]
+    
+    init() {
+        divisions = Division.examples
+    }
+}
