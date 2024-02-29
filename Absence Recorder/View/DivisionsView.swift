@@ -14,7 +14,7 @@ struct DivisionsView: View {
     var body: some View {
         NavigationStack {
             List(state.divisions, id: \.self.code) { division in
-                NavigationLink(destination: AbsenceView(division: division)) {
+                NavigationLink(destination: AbsenceView(absence: division.createAbsenceOrGetExistingIfAvailable(for: currentDate))) {
                     DivisionItem(division: division)
                 }
             }
@@ -35,7 +35,7 @@ struct DivisionsView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct DivisionView_Previews: PreviewProvider {
     static var previews: some View {
         DivisionsView()
             .environmentObject(StateController())

@@ -11,6 +11,7 @@ struct RootTabView: View {
     var body: some View {
         TabView {
             DivisionsView()
+                .environmentObject(StateController())
                 .tabItem {
                     Image(systemName: "square.and.pencil")
                     Text("Absences")
