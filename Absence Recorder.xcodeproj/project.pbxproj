@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C20E39542B93810700058E4C /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20E39532B93810700058E4C /* FileManager.swift */; };
 		C22AA37F2B86B63C006E0590 /* Absence_RecorderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22AA37E2B86B63C006E0590 /* Absence_RecorderApp.swift */; };
 		C22AA3812B86B63C006E0590 /* DivisionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22AA3802B86B63C006E0590 /* DivisionsView.swift */; };
 		C22AA3832B86B63D006E0590 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C22AA3822B86B63D006E0590 /* Assets.xcassets */; };
@@ -46,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C20E39532B93810700058E4C /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
 		C22AA37B2B86B63C006E0590 /* Absence Recorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Absence Recorder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C22AA37E2B86B63C006E0590 /* Absence_RecorderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Absence_RecorderApp.swift; sourceTree = "<group>"; };
 		C22AA3802B86B63C006E0590 /* DivisionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisionsView.swift; sourceTree = "<group>"; };
@@ -183,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				C2EF848D2B87AE6500055F89 /* Date.swift */,
+				C20E39532B93810700058E4C /* FileManager.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				C22AA3812B86B63C006E0590 /* DivisionsView.swift in Sources */,
 				C2EF848E2B87AE6500055F89 /* Date.swift in Sources */,
 				C2D0F9052B8E38B000528FE8 /* RootTabView.swift in Sources */,
+				C20E39542B93810700058E4C /* FileManager.swift in Sources */,
 				C2D0F90D2B8E409500528FE8 /* StudentAbsence.swift in Sources */,
 				C22AA3AB2B87A391006E0590 /* Student.swift in Sources */,
 				C2D0F90B2B8E3E2F00528FE8 /* AbsenceItem.swift in Sources */,
